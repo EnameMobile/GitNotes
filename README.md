@@ -26,3 +26,6 @@
 创建.gitignore文件  
 忽略列表详见  
 **https://github.com/github/gitignore**
+
+## 本地独享式文件忽略  
+    git update-index --assume-unchanged FILENAME
