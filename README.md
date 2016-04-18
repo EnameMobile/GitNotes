@@ -29,3 +29,7 @@
 
 ## 本地独享式文件忽略  
     git update-index --assume-unchanged FILENAME
+
+## 本地分支与远程分支关联
+
+    git branch--set-upstream dev origin/dev
